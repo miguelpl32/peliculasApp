@@ -3,16 +3,22 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto"></ul>
-    <form class="form-inline my-2 my-lg-0">
+    <div class="form-inline my-2 my-lg-0">
       <input
+        #txtBuscar
+        (keyup.enter)="buscarPelicula(txtBuscar.value)"
         class="form-control mr-sm-2"
         type="search"
         placeholder="Buscar película"
         aria-label="Search"
       />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+      <button
+        (click)="buscarPelicula(txtBuscar.value)"
+        class="btn btn-outline-success my-2 my-sm-0"
+        type="submit"
+      >
         Buscar
       </button>
-    </form>
+    </div>
   </div>
 </nav>

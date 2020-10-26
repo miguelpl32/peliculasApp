@@ -21,7 +21,7 @@ export class PeliculasService {
       api_key: 'a9efc41c74697a458503e23a65b092ed',
       language: 'es-ES',
       page: this.carteleraPage.toString()
-    }
+    };
   }
 
   getCartelera(): Observable<Movie[]> {
@@ -38,6 +38,17 @@ export class PeliculasService {
         this.cargando = false;
       })
 
+    );
+  }
+
+  buscarPeliculas(texto: string): Observable<Movie[]> {
+
+    const params = { ...this.params, page: '1', query: texto };
+
+    return this.http.get<CarteleraResponse>(`${this.URL}/search/movie`, {
+      params
+    }).pipe(
+      map(resp => resp.results)
     );
   }
 }
