@@ -52,7 +52,7 @@ export class PeliculaComponent implements OnInit {
     });
 
     this.peliculasService.getCast(id).subscribe(cast => {
-      console.log(cast);
+      // console.log(cast);
       this.cast = cast.filter(actor => actor.profile_path !== null);
     });
   }
