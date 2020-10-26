@@ -24,6 +24,10 @@ export class PeliculasService {
     };
   }
 
+  resetCarteleraPage(): void {
+    this.carteleraPage = 1;
+  }
+
   getCartelera(): Observable<Movie[]> {
     if (this.cargando) {
       return of([]);
