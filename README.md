@@ -10,7 +10,7 @@ Conexion API, conexion entre componentes y traspaso de información.
 [Visita el proyecto](https://cartelerafilms.herokuapp.com/)
 
 
-![ScreenShot](https://{cartelerafilms.herokuapp.com/})
+![image](https://{cartelerafilms.herokuapp.com/})
 
 ## Lenguajes
 + Angular
