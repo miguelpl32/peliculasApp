@@ -9,7 +9,7 @@ Conexion API, conexion entre componentes y traspaso de información.
 
 [Visita el proyecto](https://cartelerafilms.herokuapp.com/)
 
-
+![src/assets/peliculasApp.png]
 
 
 ## Lenguajes
