@@ -7,7 +7,7 @@ Conexion API, conexion entre componentes y traspaso de información.
 
 ### Visita el proyecto.
 
-[Visita el proyecto](https://cartelerafilms.herokuapp.com/)
+[Visita el proyecto](https://site--true-truck--dbk24sfkwltp.code.run/home)
 
 ![](src/assets/peliculasApp.png)
 
