@@ -7,7 +7,7 @@ Conexion API, conexion entre componentes y traspaso de información.
 
 ### Visita el proyecto.
 
-[Visita el proyecto](https://site--true-truck--dbk24sfkwltp.code.run/home)
+[Visita el proyecto](https://site--true-truck--dbk24sfkwltp.code.run)
 
 ![](src/assets/peliculasApp.png)
 
