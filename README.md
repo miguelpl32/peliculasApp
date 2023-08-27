@@ -7,7 +7,7 @@ Conexion API, conexion entre componentes y traspaso de información.
 
 ### Visita el proyecto.
 
-[Visita el proyecto](https://site--true-truck--dbk24sfkwltp.code.run)
+[Visita el proyecto](https://master--funny-froyo-6f51a8.netlify.app/home)
 
 ![](src/assets/peliculasApp.png)
 
